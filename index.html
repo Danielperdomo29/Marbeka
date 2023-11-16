@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Marbeka,Estilo Y Decoracion</title>
+    <link rel="stylesheet" href="css/normalize.css">    
+    <link rel="stylesheet" href="css/skeleton.css">
+    <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css">
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+</head>
+<body>     
+<header id="header" class="header">
+    <div class="container">
+        <div class="row">
+            <div class="four columns">
+                <img src="img/logo.png" id="logo">
+            </div>
+            <div class="two columns u-pull-right">
+                <ul>
+                    <li class="submenu">
+                        <a href="#">
+                            <img src="img/cart.png" id="img-carrito" alt="Carrito de compras">
+                            <img src="img/cart-hover.png" id="img-carrito-hover" alt="Carrito de compras" class="hover">
+                        </a>
+                            <div id="carrito">   
+                                    <table id="lista-carrito" class="u-full-width">
+                                        <thead>
+                                            <tr>
+                                                <th>Imagen</th>
+                                                <th>Nombre</th>
+                                                <th>Precio</th>
+                                                <th>Cantidad</th>
+                                                <th></th>
+                                            </tr>
+                                        </thead>
+                                        <tbody></tbody>
+                                    </table>
+
+                                    <a href="#" id="vaciar-carrito" class="button u-full-width">Vaciar Carrito</a>
+                            </div>
+                    </li>
+                </ul>
+            </div>
+        </div> 
+    </div>
+    <button id="menu-button" >Abrir menú</button>
+    <nav id="menu" class="menu ">
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="about.html">Quiénes Somos</a></li> 
+            <li><a href="#catalogo">Catálogo</a></li>
+        </ul>
+    </nav>
+</header>
+  
+
+    <div class="container">
+
+        <div class="container">
+            <div id="hero" class="slick-carousel">
+                <div><img src="img/slide_1.jpeg" alt="Slide 1"></div>
+                <div><img src="img/slide_4.jpeg" alt="Slide 2"></div>
+                <div><img src="img/slide.jpeg" alt="Slide 3"></div>
+            </div>  
+            <div class="slider-text-container">
+                <div class="contenido-hero">
+                <h2>Los detalles no son solo detalles<br>Ellos hacen el diseño</h2>
+                            <form action="#" id="busqueda" method="post" class="formulario">
+                                <input class="u-full-width" type="text" placeholder="¿Que buscas?" id="buscador">
+                                <input type="submit" id="submit-buscador" class="submit-buscador">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+    
+
+    <div class="barra">
+        <div class="container">
+            <div class="row">
+                    <div class="four columns icono icono1">
+                        <p class="contenido-hero">Propuestas innovadoras para<br>
+                         el encanto de tu casa</p>
+                    </div>
+                    <div class="four columns icono icono2">
+                        <p class="contenido-hero">Instructores Expertos <br>   
+                       en decoración  y  en estilo</p>
+                    </div>
+                    <div class="four columns icono icono3">
+                        <p class="contenido-hero" >Entregas puntuales y garantizadas <br> en el menor tiempo posible </p>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="lista-cursos" class="container">
+        <h1 id="encabezado" class="encabezado">PRODUCTOS</h1>
+        <div class="row">
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/curso1.jpg" class="imagen-curso u-full-width">
+                    <div class="info-card">
+                        <h4>Nombre_Del_producto</h4>
+                        <p>PRODUCTO</p>
+                        <img src="img/estrellas.png">
+                        <p class="precio">$200  <span class="u-pull-right ">$150</span></p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Agregar Al Carrito</a>
+                    </div>
+                </div> <!--.card-->
+            </div>
+            <div class="four columns">
+                    <div class="card">
+                        <img src="img/curso2.jpg" class="imagen-curso u-full-width">
+                        <div class="info-card">
+                            <h4>Nombre_Del_producto</h4>
+                            <p>PRODUCTO</p>
+                            <img src="img/estrellas.png">
+                            <p class="precio">$200  <span class="u-pull-right ">$15</span></p>
+                            <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="2">Agregar Al Carrito</a>
+                        </div>
+                    </div>
+            </div>
+            <div class="four columns">
+                    <div class="card">
+                        <img src="img/curso3.jpg" class="imagen-curso u-full-width">
+                        <div class="info-card">
+                            <h4>Nombre_Del_producto</h4>
+                            <p>PRODUCTO</p>
+                            <img src="img/estrellas.png">
+                            <p class="precio">$200  <span class="u-pull-right ">$15</span></p>
+                            <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="3">Agregar Al Carrito</a>
+                        </div>
+                    </div> <!--.card-->
+            </div>
+
+        </div> <!--.row-->
+        <div class="row">
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/curso4.jpg" class="imagen-curso u-full-width">
+                    <div class="info-card">
+                        <h4>Nombre_Del_producto</h4>
+                        <p>PRODUCTO</p>
+                        <img src="img/estrellas.png">
+                        <p class="precio">$200  <span class="u-pull-right ">$15</span></p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="4">Agregar Al Carrito</a>
+                    </div>
+                </div> <!--.card-->
+            </div>
+            <div class="four columns">
+                    <div class="card">
+                        <img src="img/curso5.jpg" class="imagen-curso u-full-width">
+                        <div class="info-card">
+                            <h4>Nombre_Del_producto</h4>
+                            <p>PRODUCTO</p>
+                            <img src="img/estrellas.png">
+                            <p class="precio">$200  <span class="u-pull-right ">$15</span></p>
+                            <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="5">Agregar Al Carrito</a>
+                        </div>
+                    </div> <!--.card-->
+            </div>
+            <div class="four columns">
+                    <div class="card">
+                        <img src="img/curso1.jpg" class="imagen-curso u-full-width">
+                        <div class="info-card">
+                            <h4>Nombre_Del_producto</h4>
+                            <p>PRODUCTO</p>
+                            <img src="img/estrellas.png">
+                            <p class="precio">$200  <span class="u-pull-right ">$15</span></p>
+                            <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="6">Agregar Al Carrito</a>
+                        </div>
+                    </div> <!--.card-->
+            </div>
+        </div> <!--.row-->
+        <div class="row">
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/curso2.jpg" class="imagen-curso u-full-width">
+                    <div class="info-card">
+                        <h4>Nombre_Del_producto</h4>
+                        <p>PRODUCTO</p>
+                        <img src="img/estrellas.png">
+                        <p class="precio">$200  <span class="u-pull-right ">$15</span></p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="7">Agregar Al Carrito</a>
+                    </div>
+                </div> <!--.card-->
+            </div>
+            <div class="four columns">
+                    <div class="card">
+                        <img src="img/curso3.jpg" class="imagen-curso u-full-width">
+                        <div class="info-card">
+                            <h4>Nombre_Del_producto</h4>
+                            <p>PRODUCTO</p>
+                            <img src="img/estrellas.png">
+                            <p class="precio">$200  <span class="u-pull-right ">$15</span></p>
+                            <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="8">Agregar Al Carrito</a>
+                        </div>
+                    </div> <!--.card-->
+            </div>
+            <div class="four columns">
+                    <div class="card">
+                        <img src="img/curso4.jpg" class="imagen-curso u-full-width">
+                        <div class="info-card">
+                            <h4>Nombre_Del_producto</h4>
+                            <p>PRODUCTO</p>
+                            <img src="img/estrellas.png">
+                            <p class="precio">$200  <span class="u-pull-right ">$15</span></p>
+                            <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="9">Agregar Al Carrito</a>
+                        </div>
+                    </div> <!--.card-->
+            </div>
+        </div> <!--.row-->
+        <div class="row">
+                <div class="four columns">
+                    <div class="card">
+                        <img src="img/curso5.jpg" class="imagen-curso u-full-width">
+                        <div class="info-card">
+                            <h4>Nombre_Del_producto</h4>
+                            <p>PRODUCTO</p>
+                            <img src="img/estrellas.png">
+                            <p class="precio">$200  <span class="u-pull-right ">$15</span></p>
+                            <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="10">Agregar Al Carrito</a>
+                        </div>
+                    </div> <!--.card-->
+                </div>
+                <div class="four columns">
+                        <div class="card">
+                            <img src="img/curso1.jpg" class="imagen-curso u-full-width">
+                            <div class="info-card">
+                                <h4>Nombre_Del_producto</h4>
+                                <p>PRODUCTO</p>
+                                <img src="img/estrellas.png">
+                                <p class="precio">$200  <span class="u-pull-right ">$15</span></p>
+                                <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="11">Agregar Al Carrito</a>
+                            </div>
+                        </div> <!--.card-->
+                </div>
+                <div class="four columns">
+                        <div class="card">
+                            <img src="img/curso2.jpg" class="imagen-curso u-full-width">
+                            <div class="info-card">
+                                <h4>Nombre_Del_producto</h4>
+                                <p>PRODUCTO</p>
+                                <img src="img/estrellas.png">
+                                <p class="precio">$200  <span class="u-pull-right ">$15</span></p>
+                                <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="12">Agregar Al Carrito</a>
+                            </div>
+                        </div> <!--.card-->
+                </div>
+            </div> <!--.row-->
+    </div>  
+
+    <footer id="footer" class="footer">
+        <div class="container"> 
+            <div class="row">
+                    <div class="two columns">
+                            <nav id="principal" >
+                                <a class="enlace" href="#">Soporte</a>
+                                <a class="enlace" href="#">Temas</a>
+                            </nav>
+                    </div>
+                    <div class="two columns">
+                            <nav id="secundaria" ">
+                                <a class="enlace" href="https://www.facebook.com/profile.php?id=100063754831993" target="_blank">Facebook</a>
+                                <a class="enlace" href="https://www.instagram.com/marbeka_estilo_y_decoracion/" target="_blank">Instagram</a>
+                            </nav>
+                    </div>
+                    <div class="contacto">
+                        <a href="data:text/vcard;charset=utf-8,BEGIN:VCARD%0AVERSION:3.0%0AFN:Marbeka%0ATEL:+573207644753%0AEMAIL:decoracionesmaarbeka@gmail.com%0AEND:VCARD" download="MiContacto.vcf"> +57 320 7644753</a>
+                        <a href="data:text/vcard;charset=utf-8,BEGIN:VCARD%0AVERSION:3.0%0AFN:Marbeka%0ATEL:+573053842383%0AEMAIL:decoracionesmaarbeka@gmail.com%0AEND:VCARD" download="MiContacto.vcf"> +57 305 3842383</a>
+                    </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/app.js"></script>   
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script> 
+    <script>
+        $(document).ready(function(){
+    $('.slick-carousel').slick({
+        dots: true, // Puedes ajustar las opciones según tus necesidades
+        autoplay: true,
+        autoplaySpeed: 3000
+    });
+});
+    </script>
+
+      
+</body>
+</html>
+
+
